@@ -8,5 +8,5 @@ int main(void)
 {
 	/* the function or code goes here*/
 	puts("\"Programming is like building a multilingual puzzle");
-	return 0;
+	return (0);
 }
