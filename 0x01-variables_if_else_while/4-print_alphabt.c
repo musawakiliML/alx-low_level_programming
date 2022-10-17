@@ -12,7 +12,7 @@ int main(void)
 	{
 		if (letter == 'q' || letter == 'e')
 		{
-			break;
+			continue;
 		}
 		else
 		{
