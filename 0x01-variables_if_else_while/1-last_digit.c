@@ -6,9 +6,8 @@
  * main - Entry point
  * Description: Get the last digit and decide whether it is > 5 or not
  * Return: Always 0 (Success)
- * 
+ *
  */
-
 int main(void)
 {
 	int n;
