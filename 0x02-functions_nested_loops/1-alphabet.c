@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- * print_alphabe - function entry point
+ * print_alphabet - function entry point
  * Description - a function that prints the alphabets, in lowercase.
- * Return: void
+ * Return -  void
  */
+
 void print_alphabet(void)
 {
 	char letter;
