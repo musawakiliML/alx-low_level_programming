@@ -5,7 +5,7 @@
  * _abs - function entry point.
  * Description - function that computes the absolute value of an integer.
  * @n: Input.
- * Return: 0 success.
+ * Return: absolute value of n.
  */
 
 int _abs(int n)
