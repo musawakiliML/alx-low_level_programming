@@ -27,7 +27,7 @@ void print_to_98(int n)
 			n++;
 		}
 	}
-	else if (n < num)
+	else if (n > num)
 	{
 		while (n >= num)
 		{
