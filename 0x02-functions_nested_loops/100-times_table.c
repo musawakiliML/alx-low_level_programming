@@ -22,8 +22,6 @@ void print_times_table(int n)
 		for (row = 0; row <= n; row++)
 		{
 			_putchar('0');
-			_putchar(',');
-			_putchar(' ');
 
 			for (column = 1; column <= n; column++)
 			{
@@ -54,6 +52,7 @@ void print_times_table(int n)
 					_putchar(num % 10 + '0');
 				}
 			}
+			_putchar('\n');
 		}
 	}
 }
