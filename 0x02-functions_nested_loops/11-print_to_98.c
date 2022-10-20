@@ -24,8 +24,8 @@ void print_to_98(int n)
 				printf(",");
 				printf(" ");
 			}
+			n++;
 		}
-		n++;
 	}
 	else if (n < num)
 	{
