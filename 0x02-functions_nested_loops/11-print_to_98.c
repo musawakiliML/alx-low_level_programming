@@ -18,11 +18,11 @@ void print_to_98(int n)
 	{
 		while (n <= num)
 		{
-			_putchar(n + '0');
+			printf("%d", n);
 			if (n != num)
 			{
-				_putchar(',');
-				_putchar(' ');
+				printf(',');
+				printf(' ');
 			}
 		}
 		n++;
@@ -31,18 +31,18 @@ void print_to_98(int n)
 	{
 		while (n >= num)
 		{
-			_putchar(n + '0');
+			printf("%d", n);
 			if (n != num)
 			{
-				_putchar(',');
-				_putchar(' ');
+				printf(',');
+				printf(' ');
 			}
 			n--;
 		}
 	}
 	else
 	{
-		_putchar(num + '0');
+		printf("%d", num);
 	}
-	_putchar('\n');
+	printf('\n');
 }
