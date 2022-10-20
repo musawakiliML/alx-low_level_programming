@@ -28,7 +28,7 @@ void print_times_table(int n)
 			for (column = 1; column <= n; column++)
 			{
 				num = (row * column);
-				if ((num / n) > 0);
+				if ((num / n) > 0)
 				{
 					_putchar((num / n) + '0');
 				}
