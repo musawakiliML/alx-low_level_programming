@@ -43,28 +43,28 @@ void print_times_table(int n)
 
 void formatfunc(int n)
 {
-	if (num <= 9)
+	if (n <= 9)
 	{
 		_putchar(',');
 		_putchar(' ');
 		_putchar(' ');
 		_putchar(' ');
-		_putchar(num + '0');
+		_putchar(n + '0');
 	}
-	else if (num > 9 && num <= 99)
+	else if (n > 9 && n <= 99)
 	{
 		_putchar(',');
 		_putchar(' ');
 		_putchar(' ');
-		_putchar(num / 10 + '0');
-		_putchar(num % 10 + '0');
+		_putchar(n / 10 + '0');
+		_putchar(n % 10 + '0');
 	}
 	else
 	{
 		_putchar(',');
 		_putchar(' ');
-		_putchar(num / 100 + '0');
-		_putchar(num / 10 % 10 + '0');
-		_putchar(num % 10 + '0');
+		_putchar(n / 100 + '0');
+		_putchar(n / 10 % 10 + '0');
+		_putchar(n % 10 + '0');
 	}
 }
