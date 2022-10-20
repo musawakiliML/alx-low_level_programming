@@ -18,8 +18,6 @@ int main(void)
 	fibonacci_num[0] = 1;
 	fibonacci_num[1] = 2;
 
-	printf("%lu, %lu, ", fibonacci_num[0], fibonacci_num[1]);
-
 	for (num = 2; num < 50; num++)
 	{
 		fibonacci_num[num] = fibonacci_num[num - 1] + fibonacci_num[num - 2];
