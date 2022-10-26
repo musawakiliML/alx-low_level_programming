@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * Description - a function to print 1-100
+ * Description: a function to print 1-100
  * with the fizzbuzz test
  * Return: 0 success
  */
