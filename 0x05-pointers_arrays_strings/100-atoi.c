@@ -25,7 +25,7 @@ int _atoi(char *s)
 		{
 			if (b < 0)
 			{
-				b = (b * 10) + (s[len] - '0');
+				b = (b * 10) - (s[len] - '0');
 			}
 			else
 			{
@@ -37,7 +37,7 @@ int _atoi(char *s)
 				break;
 			}
 		}
-	}	
+	}
 	if (a < 0)
 	{
 		b = b * (-1);
