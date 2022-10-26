@@ -21,9 +21,9 @@ int _atoi(char *s)
 		{
 			a = a * (-1);
 		}
-		else if (*s >= '0' && * <= '9')
+		else if (*s >= '0' && *s <= '9')
 		{	
-			if (h < 0)
+			if (b < 0)
 			{
 				b = (b * 10) + (s[len] - '0');
 			}
