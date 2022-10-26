@@ -22,23 +22,26 @@ int _atoi(char *s)
 			a = a * (-1);
 		}
 		else if (*s >= '0' && *s <= '9')
-		{	
+		{
 			if (b < 0)
 			{
 				b = (b * 10) + (s[len] - '0');
 			}
 			else
 			{
+				b = (s[len] - '0') * (-1);
+			}
+
+			if (s[len + 1] < 48 || s[len + 1] > 57)
+			{
 				break;
 			}
 		}
-	}
-	
+	}	
 	if (a < 0)
 	{
 		b = (-b);
 	}
 
 	return (b);
-
 }
