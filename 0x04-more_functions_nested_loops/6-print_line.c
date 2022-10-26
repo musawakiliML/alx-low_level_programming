@@ -3,6 +3,7 @@
 /**
  * print_line - a function that prints line
  * Description - draw line _ n times
+ * @n: number of times _ appears
  */
 void print_line(int n)
 {
@@ -18,5 +19,6 @@ void print_line(int n)
 		{
 			_putchar('_');
 		}
+		_putchar('\n');
 	}
 }
