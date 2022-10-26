@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * Description: a function to print 1-100
- * with the fizzbuzz test
- * Return: 0 success
+ * main - Entry point
+ * Description - prints the numbers from 1 to 100, followed by a new line.
+ * But for multiples of three print Fizz instead of the number and for the
+ * multiples of five print Buzz. For numbers which are multiples of
+ * both three and five print FizzBuzz
+ * Return: Always 0 (Succes)
  */
 int main(void)
 {
