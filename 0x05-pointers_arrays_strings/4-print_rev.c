@@ -4,10 +4,9 @@
  * print_rev - function entry point
  * Description - function that prints a string, in reverse.
  * @s: string input
- * Return: reversed string
  */
 
-int print_rev(char *s)
+void print_rev(char *s)
 {
 	int len;
 
