@@ -1,15 +1,16 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - entry point
  * Description - a function to print 1-100
  * with the fizzbuzz test
+ * Return: 0 success
  */
 int main(void)
 {
 	int n;
 
-	for (n = 0; n < 100; n++)
+	for (n = 1; n <= 100; n++)
 	{
 		if (n % 3 == 0)
 		{
@@ -27,6 +28,13 @@ int main(void)
 		{
 			printf("%d", n);
 		}
+		
+		if (n != 100)
+		{
+			printf(" ");
+		}
 	}
 	printf("\n");
+
+	return (0);
 }
