@@ -12,7 +12,7 @@ int _atoi(char *s)
 	int len;
 	int a, b;
 
-	a = 1;
+	a = -1;
 	b = 0;
 
 	for (len = 0; s[len] != '\0'; len++)
@@ -40,7 +40,7 @@ int _atoi(char *s)
 	}	
 	if (a < 0)
 	{
-		b = (-b);
+		b = b * (-1);
 	}
 
 	return (b);
