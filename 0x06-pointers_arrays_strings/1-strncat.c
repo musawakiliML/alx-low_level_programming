@@ -7,6 +7,7 @@
  * @n: number of elements
  * Return: pointer to resulting `dest`
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
