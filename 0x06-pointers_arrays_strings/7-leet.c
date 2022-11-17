@@ -1,32 +1,31 @@
 #include "main.h"
 
 /**
- * leet - function Entry point
- * Description - a function that encodes a
- * string into 1337
- * @a: string input
+ * leet - function to encode a string into 1337
+ * @str: character
  * Return: encoded string value
  */
 
 char *leet(char *a)
 {
-	int i;
-	int j;
 
-	i = 0;
+	int c = 0;
+	int i = 0;
 
-	char subs[10] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
-	char str[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	char *letters = "aeotlAEOTL";
+	char *nums = "4307143071";
 
-	for (; a[i] != '\0'; i++)
+	while (a[c] != '\0')
 	{
-		for (j = 0; j < 10; j++)
+		i = 0;
+
+		while (letters[i] != '\0')
 		{
-			if (a[i] == str[j])
-			{
-				a[i] = subs[j];
-			}
+			if (a[c] == letters[i])
+				a[c] = nums[i];
+			i++;
 		}
+		c++;
 	}
 
 	return (a);
