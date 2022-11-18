@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_number - funnction entry point 
  * Description - Print an integer using only _putchar
@@ -20,5 +21,6 @@ void print_number(int n)
 	{
 		print_number(i / 10);
 	}
+
 	_putchar(i % 10 + '0');
 }
