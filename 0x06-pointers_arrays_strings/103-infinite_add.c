@@ -3,7 +3,6 @@
 /**
  * rev_string - reverse array
  * @n: integer params
- * Return: 0
  */
 
 void rev_string(char *n)
@@ -102,7 +101,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	}
 	if (digits == size_r)
 	{
-			return (0);
+		return (0);
 	}
 
 	*(r + digits) = '\0';
