@@ -2,7 +2,7 @@
 
 /**
  * rot13 - function to convert to rot 13
- * @str: string input
+ * @s: string input
  * Return: Converted String
  */
 
