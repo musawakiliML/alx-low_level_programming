@@ -2,9 +2,9 @@
 
 /**
 * print_chessboard - prints the chessboard
-* @a: input pointer.
-* Return: no return.
+* @a: the chessboard printed.
 */
+
 void print_chessboard(char (*a)[8])
 {
 	unsigned int k, b;
