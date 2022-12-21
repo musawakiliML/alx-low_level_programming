@@ -8,8 +8,6 @@
 void print_chessboard(char (*a)[8])
 {
 	unsigned int k, b;
-	k = 0;
-	b = 0;
 	
 	for (k = 0; k < 64; k++)
 	{
