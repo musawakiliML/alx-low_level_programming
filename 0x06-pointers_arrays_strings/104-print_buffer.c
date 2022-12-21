@@ -39,7 +39,7 @@ void print_buffer(char *b, int size)
 			printf(" ");
 			for (c = a; c < a + 10; c++)
 			{
-				if (l >= size)
+				if (c >= size)
 				{
 					break;
 				}
